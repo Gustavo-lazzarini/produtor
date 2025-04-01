@@ -19,19 +19,22 @@
         .card {
             background-color: white;
             border-radius: 15px;
-            padding: 30px;
-            width: 800px;
+            padding: 20px;
+            width: 90%;
+            max-width: 800px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
         h1 {
             text-align: center;
             color: #333;
+            font-size: 1.8em;
         }
 
         p, ul {
             text-align: justify;
             color: #555;
+            font-size: 0.95em;
         }
 
         ul {
@@ -47,7 +50,8 @@
             border-radius: 10px;
             text-decoration: none;
             margin: 20px auto;
-            width: 200px;
+            width: 70%;
+            max-width: 300px;
             transition: transform 0.2s;
         }
 
@@ -57,6 +61,18 @@
 
         .icon {
             margin-right: 10px;
+        }
+
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 2.2em;
+            }
+            p, ul {
+                font-size: 1em;
+            }
+            .button {
+                width: 200px;
+            }
         }
     </style>
 </head>
@@ -88,7 +104,7 @@
             <li>Conhecimento em comunicação, marketing e posicionamento de marcas</li>
         </ul>
         
-        <a href="https://wa.me/5532999595155" class="button">Contrate Agora</a>
+        <a href="https://wa.me/5532999595155" class="button">Faça um Orçamento</a>
     </div>
 </body>
 </html>
